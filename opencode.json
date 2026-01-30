@@ -1,0 +1,33 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "theme": "opencode",
+    "autoupdate": true,
+    // "model": "github-copilot/",
+    // "small_model": "github-copilot/",
+    "mcp": {
+        "github" :{
+            "type": "remote",
+            "url": "https://api.githubcopilot.mcp",
+            "enabled": false,
+            "headers": {
+                "Authorization": "Bearer {env:github_mcp_pat}"
+            },
+            "timeout": 60000
+        },
+        "context7": {
+            "type": "remote",
+            "url": "https://mcp.context7.com/mcp",
+            "enabled": false,
+            "timeout": 60000
+        },
+        "gh_grep": {
+            "type": "remote",
+            "url": "https://mcp.grep.app",
+            "enabled": false,
+            "timeout": 60000
+        }
+    },
+    "plugin": [
+        "@ramtinj95/opencode-tokenscope@latest"
+    ]
+}
