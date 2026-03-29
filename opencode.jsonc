@@ -4,15 +4,6 @@
   "model": "opencode/big-pickle",
   "small_model": "opencode/big-pickle",
   "mcp": {
-    "github": {
-      "type": "remote",
-      "url": "https://api.githubcopilot.mcp",
-      "enabled": false,
-      "headers": {
-        "Authorization": "Bearer {env:github_mcp_pat}"
-      },
-      "timeout": 60000
-    },
     "playwright": {
       "type": "local",
       "command": [
@@ -28,16 +19,6 @@
       "url": "https://mcp.context7.com/mcp",
       "enabled": false,
       "timeout": 60000
-    },
-    "gh_grep": {
-      "type": "remote",
-      "url": "https://mcp.grep.app",
-      "enabled": false,
-      "timeout": 60000
-    },
-    "atlassian-mcp": {
-      "type": "remote",
-      "url": "https://mcp.atlassian.com/v1/mcp"
     }
   },
   "plugin": [
