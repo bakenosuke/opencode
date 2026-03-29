@@ -57,5 +57,11 @@
     "writing": {
       "model": "opencode/mimo-v2-pro-free"
     }
+  },
+  "sisyphus_agent": {
+    "disabled": false,
+    "default_builder_enabled": true,
+    "planner_enabled": true,
+    "replace_plan": false
   }
 }

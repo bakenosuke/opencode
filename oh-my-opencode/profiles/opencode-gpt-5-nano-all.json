@@ -57,5 +57,11 @@
     "writing": {
       "model": "opencode/gpt-5-nano"
     }
+  },
+  "sisyphus_agent": {
+    "disabled": false,
+    "default_builder_enabled": true,
+    "planner_enabled": true,
+    "replace_plan": false
   }
 }
