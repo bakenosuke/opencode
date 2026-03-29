@@ -2,60 +2,60 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
   "agents": {
     "hephaestus": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "oracle": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "librarian": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "explore": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "multimodal-looker": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "prometheus": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "metis": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "momus": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "atlas": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "sisyphus-junior": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     }
   },
   "categories": {
     "visual-engineering": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "ultrabrain": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "deep": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "artistry": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "quick": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "unspecified-low": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "unspecified-high": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     },
     "writing": {
-      "model": "opencode/mimo-pro-free"
+      "model": "opencode/mimo-v2-pro-free"
     }
   }
 }
