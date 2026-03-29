@@ -1,2 +1,3 @@
 alias omo-profile-opencode-gpt-5-nano-all="ln -sF ~/.config/opencode/oh-my-opencode/profiles/opencode-gpt-5-nano-all.json  ~/.config/opencode/oh-my-opencode.json"
 alias omo-profile-opencode-mimo-pro-free-all="ln -sF ~/.config/opencode/oh-my-opencode/profiles/opencode-mimo-pro-free-all.json  ~/.config/opencode/oh-my-opencode.json"
+alias omo-profile-opencode-big-pickle-all="ln -sF ~/.config/opencode/oh-my-opencode/profiles/opencode-big-pickle-all.json  ~/.config/opencode/oh-my-opencode.json"
