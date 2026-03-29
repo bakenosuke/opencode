@@ -1,18 +1,21 @@
 {
     "$schema": "https://raw.githubusercontent.com/devcontainers/spec/refs/heads/main/schemas/devContainer.schema.json",
+    "name": "OpenCode Dev Container",
     "image": "mcr.microsoft.com/devcontainers/typescript-node:latest",
     "mounts": [
         "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bun,target=/root/.bun,type=bind,consistency=cached",
-        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.config/opencode/opencode.json,target=/root/.config/opencode/opencode.json,type=bind,consistency=cached",
-        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.config/opencode/command,target=/root/.config/opencode/command,type=bind,consistency=cached",
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.config/opencode,target=/root/.config/opencode,type=bind,readonly",
         "source=${localEnv:HOME}${localEnv:USERPROFILE}/.local/share/opencode,target=/root/.local/share/opencode,type=bind,consistency=cached"
     ],
-    "appPort": [],
+    "appPort": [
+        "4096"
+    ],
     "forwardPorts": [],
-    "postCreateCommand": "bash -c \"source ~/.bashrc && opencode\"",
+    "postCreateCommand": "service opencode start",
     "remoteUser": "root",
     "features": {
-        "ghcr.io/stu-bell/devcontainer-features/open-code:0": {}
+        "ghcr.io/stu-bell/devcontainer-features/open-code:0": {},
+
     },
     "hostRequirements": {
         "memory": "4gb"
