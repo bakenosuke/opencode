@@ -1,4 +1,4 @@
-alias omo-profile-opencode-gpt-5-nano-all="ln -sF ~/.config/opencode/oh-my-opencode/profiles/opencode-gpt-5-nano-all.json  ~/.config/opencode/oh-my-opencode.json"
-alias omo-profile-opencode-mimo-pro-free-all="ln -sF ~/.config/opencode/oh-my-opencode/profiles/opencode-mimo-pro-free-all.json  ~/.config/opencode/oh-my-opencode.json"
-alias omo-profile-opencode-big-pickle-all="ln -sF ~/.config/opencode/oh-my-opencode/profiles/opencode-big-pickle-all.json  ~/.config/opencode/oh-my-opencode.json"
-alias omo-profile-github-copilot="ln -sF ~/.config/opencode/oh-my-opencode/profiles/github-copilot.json  ~/.config/opencode/oh-my-opencode.json"
+alias omo-profile-opencode-gpt-5-nano-all="ln -sF ~/.config/opencode/oh-my-openagent/profiles/opencode-gpt-5-nano-all.json  ~/.config/opencode/oh-my-openagent.json"
+alias omo-profile-opencode-mimo-pro-free-all="ln -sF ~/.config/opencode/oh-my-openagent/profiles/opencode-mimo-pro-free-all.json  ~/.config/opencode/oh-my-openagent.json"
+alias omo-profile-opencode-big-pickle-all="ln -sF ~/.config/opencode/oh-my-openagent/profiles/opencode-big-pickle-all.json  ~/.config/opencode/oh-my-openagent.json"
+alias omo-profile-github-copilot="ln -sF ~/.config/opencode/oh-my-openagent/profiles/github-copilot.json  ~/.config/opencode/oh-my-openagent.json"

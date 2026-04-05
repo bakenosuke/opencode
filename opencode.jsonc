@@ -23,7 +23,7 @@
   },
   "plugin": [
     "opencode-openai-codex-auth@latest",
-    "oh-my-opencode@latest"
+    "oh-my-openagent@latest"
   ],
   "provider": {
 //    "ollama": {
